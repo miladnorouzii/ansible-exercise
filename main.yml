@@ -1,0 +1,5 @@
+- name: Deploy a database
+  hosts: all
+  roles:
+    - python
+    - mysql_db

@@ -1,0 +1,6 @@
+---
+# tasks file for python
+- name: Install main packages
+  apt:
+    pkg:
+      - python3-pip
